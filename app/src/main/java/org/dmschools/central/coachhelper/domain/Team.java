@@ -13,7 +13,7 @@ public class Team {
 
     // write a no-arg constructor for Team object
 
-
+    String name;
     /*
     write getter and setters for the name and collection of players
      */
