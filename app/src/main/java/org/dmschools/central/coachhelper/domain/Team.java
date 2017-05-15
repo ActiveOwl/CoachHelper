@@ -1,4 +1,7 @@
 package org.dmschools.central.coachhelper.domain;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Team {
 
@@ -14,13 +17,21 @@ public class Team {
     // write a no-arg constructor for Team object
 
     String name;
+
+    List players = new ArrayList();
     /*
     write getter and setters for the name and collection of players
      */
 
     // get players
+    public List getPlayers(){
+        return players;
+    }
 
     // set players
+    public void setPlayers(String name){
+       players.add(name);
+    }
 
     public String getName(){
         return name;
