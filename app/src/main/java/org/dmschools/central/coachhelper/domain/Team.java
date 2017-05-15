@@ -22,9 +22,12 @@ public class Team {
 
     // set players
 
-    // get name
+    public String getName(){
+        return name;
+    }
 
-    // set name
-
+    public void setName(String n){
+        name = n;
+    }
 
 }
